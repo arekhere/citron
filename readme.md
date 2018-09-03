@@ -21,7 +21,7 @@ Citron follows the guidelines of the [MIT License](https://opensource.org/licens
 ### Automatic Install
 To automatically download, compile and setup the Citron daemon on Linux, run the below command. Please note that the automatic install does not yet support the graphical frontend of Citron. This will come in a later release.
 ```sh
-wget -q https://citroncoin.net/scripts/autoinstall.sh && sudo bash autoinstall.sh
+wget -q https://raw.githubusercontent.com/arekhere/citron/master/autoinstall.sh && sudo bash autoinstall.sh
 ```
 This script will download the Citron sources from GitHub (https://github.com/citroncoin/citron) and compile the source. It will automatically install dependencies and tools needed for compilation. Once compiled, it will also set up `citrond` as a systemd service, and configure to automatically start at boot.
 
@@ -38,7 +38,7 @@ sudo apt-get install libdb4.8-dev libdb4.8++-dev
 ```
 Clone this github repository and change directory:
 ```sh
-git clone https://github.com/citroncoin/citron
+git clone https://github.com/arekhere/citron
 cd citron
 ```
 For compiling the headless `citrond` daemon, enter the following commands:
