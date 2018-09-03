@@ -34,7 +34,7 @@ apt-get -y install libdb4.8-dev libdb4.8++-dev
 echo 
 
 echo "Cloning git citroncoin/citron"
-git clone https://github.com/citroncoin/citron
+git clone https://github.com/arekhere/citron
 # this is commented out because git repo is not live yet
 
 cd citron
