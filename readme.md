@@ -23,7 +23,7 @@ To automatically download, compile and setup the Citron daemon on Linux, run the
 ```sh
 wget -q https://raw.githubusercontent.com/arekhere/citron/master/autoinstall.sh && sudo bash autoinstall.sh
 ```
-This script will download the Citron sources from GitHub (https://github.com/citroncoin/citron) and compile the source. It will automatically install dependencies and tools needed for compilation. Once compiled, it will also set up `citrond` as a systemd service, and configure to automatically start at boot.
+This script will download the Citron sources from GitHub (https://github.com/arekhere/citron) and compile the source. It will automatically install dependencies and tools needed for compilation. Once compiled, it will also set up `citrond` as a systemd service, and configure to automatically start at boot.
 
 Please note running scripts as root from the internet is not advised. However, this is the easiest way to install `citrond`.
 
